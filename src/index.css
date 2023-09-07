@@ -5,8 +5,10 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color: #ffff;
+  margin:0 auto;
+  width:100%;
+text-align:center;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +16,24 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* write neccessary css for the grid- simple box style, use the css reset from the star project */
+.cell {
+  border: 2px solid rgb(190, 190, 229);
+  padding:50px 20px;
+  margin:10px;
+  width: 20%;
+  border-radius:5px;
+ }
+
+.row{
+  /* border: 2px solid green; */
+  margin:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* write neccessary css for the grid- simple box style, use the css reset from the star project 
+
+ 
 
 @media (prefers-color-scheme: light) {
   :root {
